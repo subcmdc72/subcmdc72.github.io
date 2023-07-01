@@ -65,6 +65,10 @@
 	.navbar-brand {
 		padding: 0 15px 15px;
 	}
+	.paddinglogo{
+		padding: 0px;
+		margin-left: 15px;
+	}
 	.navbar-toggle {
 	  border:1px solid #fff;
 	}
