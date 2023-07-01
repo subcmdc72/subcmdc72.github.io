@@ -10,3 +10,59 @@ html,body {height: 100%;}
 	h1{
 		font-family:Resotho;
 		}
+
+	/*nuevo*/
+
+	.generalurgencias{
+		background-color: black;
+		height: 100px;
+		width: 100%;
+	}
+
+	.btngralurgencias:hover, .left-control:hover, .right-control:hover {
+		border-color: #ffffff;
+		color: #fff;
+		background-color: #393939;
+
+	}
+
+	.btngralurgencias{
+		margin-top:20px; 
+		padding: 20px 40px;
+		color: #fff;
+    	font-size: 15px;
+    	font-weight: 900;
+        border: 1px solid #6e6d6c;
+		border-radius: 4px;
+		min-width: 230px;
+    }
+	.urgencias{
+		float:left;
+		margin-left: 50px; 
+	}
+	.contactanos{
+		float: right;
+		margin-right: 50px;
+	}
+	/*xs urgencia*/
+@media(max-width: 767px){
+	.urgencias{
+		float: none;
+
+	}
+	.contactanos{
+		float: none;
+	}
+	.generalurgencias{
+		height: 200px;
+
+	}
+	.urgencias{
+		margin-left: 0px;
+		text-align: center;
+	}
+	.contactanos{
+		text-align: center;
+		margin-right: 0px;
+	}
+}
