@@ -44,6 +44,23 @@ html,body {height: 100%;}
 		float: right;
 		margin-right: 50px;
 	}
+	.btngralurgenciasscroll{
+		margin-top:12px; 
+		color: #fff;
+    	font-size: 12px;
+    	font-weight: 900;
+        border: 1px solid #6e6d6c;
+		border-radius: 4px;
+		min-width: 110px;
+		padding: 3px 8px;
+	}
+	.logomobile{
+		font-size: 30px;
+		height: 65px;
+		line-height: 40px;
+		background-color: transparent;
+		width: 65px;
+	}
 	/*xs urgencia*/
 @media(max-width: 767px){
 	.urgencias{
@@ -64,5 +81,18 @@ html,body {height: 100%;}
 	.contactanos{
 		text-align: center;
 		margin-right: 0px;
+	}
+	.img-responsive{
+		display:none;
+
+	}
+	
+}
+@media(min-width:768px){
+	.btngralurgenciasscroll{
+		display:none;
+	}
+	.logomobile{
+		display: none;
 	}
 }
