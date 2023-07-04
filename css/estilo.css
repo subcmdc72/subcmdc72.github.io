@@ -117,8 +117,9 @@ html,body {height: 100%;}
 
 	}
 	.btngralurgencias{
-		min-width: 180px;
+		min-width: 160px;
 		font-size: 12px;
+		padding:20px 35px;
 	}
 	
 }
