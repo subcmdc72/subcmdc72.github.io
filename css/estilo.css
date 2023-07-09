@@ -39,14 +39,6 @@ html,body {height: 100%;}
 		border-radius: 4px;
 		min-width: 230px;
     }
-	.urgencias{
-		/*float:left;
-		margin-left: 50px; */
-	}
-	.contactanos{
-		/*float: right;
-		margin-right: 50px; */
-	}
 	.urgencia_uno{
 		width: 50%;
 		display: flex;
@@ -76,8 +68,14 @@ html,body {height: 100%;}
 		background-color: transparent;
 		width: 40px;
 	}
-	.urgencia_uno{
-
+	.classh1{
+		color:#fc5a25;
+		font-size: 60px;
+    	font-weight: 700;
+		font-family: Resotho;
+		margin-bottom: 30px;
+		margin-top: 20px;
+		line-height: 1.1;
 	}
 	/*xs urgencia*/
 	@media(max-width:950px){
@@ -112,7 +110,7 @@ html,body {height: 100%;}
 		text-align: center;
 		margin-right: 0px;
 	}
-	.img-responsive{
+	.imglogo-responsive{
 		display:none;
 
 	}
@@ -120,6 +118,9 @@ html,body {height: 100%;}
 		min-width: 160px;
 		font-size: 12px;
 		padding:20px 35px;
+	}
+	.classh1{
+		font-size: 40px;
 	}
 	
 }
