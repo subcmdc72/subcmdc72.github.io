@@ -64,7 +64,7 @@ html,body {height: 100%;}
 	.logomobile{
 		font-size: 30px;
 		height: 65px;
-		line-height: 40px;
+		line-height: 48px;
 		background-color: transparent;
 		width: 40px;
 	}
@@ -77,6 +77,11 @@ html,body {height: 100%;}
 		margin-top: 20px;
 		line-height: 1.1;
 	}
+	/*.keystyle{
+		color:#fc5a25;
+		font-size: 13px;
+		margin-right: 5px;
+	}*/
 	/*xs urgencia*/
 	@media(max-width:950px){
 		.generalurgencias{
@@ -112,7 +117,6 @@ html,body {height: 100%;}
 	}
 	.imglogo-responsive{
 		display:none;
-
 	}
 	.btngralurgencias{
 		min-width: 160px;
