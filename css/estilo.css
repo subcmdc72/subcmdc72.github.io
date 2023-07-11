@@ -77,11 +77,29 @@ html,body {height: 100%;}
 		margin-top: 20px;
 		line-height: 1.1;
 	}
-	/*.keystyle{
+	.keystyle{
 		color:#fc5a25;
 		font-size: 13px;
 		margin-right: 5px;
-	}*/
+	}
+	
+	.filter-orange {
+		filter: invert(69%) sepia(83%) saturate(5481%) hue-rotate(343deg) brightness(97%) contrast(104%);
+	}
+	.li-align{
+		text-align: left;
+	}
+	ul{list-style:none;}
+
+li.item-key::before{
+	font-family:"FontAwesome";
+	content:"\f084";
+	margin-right:8px;
+	color: #fc5a25;
+}
+.contact-titulo{
+	text-align: center;
+	}
 	/*xs urgencia*/
 	@media(max-width:950px){
 		.generalurgencias{
